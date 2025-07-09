@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   }
 
   const payload = {
-    model: "mistralai/mistral-small-3.2-24b-instruct:free",
+    model: "moonshotai/kimi-vl-a3b-thinking:free",
     messages: [
       {
         role: "system",
